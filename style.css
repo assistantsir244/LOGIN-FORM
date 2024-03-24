@@ -1,0 +1,101 @@
+body {
+    background-color: #122614;
+}
+
+.Main {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: #07170c;
+    padding: 30px; 
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    width: 250px;
+    padding: 10px 40px 10px 10px;
+    border-radius: 20px;
+    background-color: #526657;
+    border: 1px solid #ccc;
+    color: white; 
+}
+
+.input-container input::placeholder {
+    color: #122614; 
+    text-indent: 40px;
+    font-weight: bold;
+}
+
+.input-container2 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container2 input {
+    width: 250px;
+    padding: 10px 40px 10px 10px;
+    border-radius: 20px;
+    background-color: #526657;
+    border: 1px solid #ccc;
+    color: white; 
+}
+
+.input-container2 input::placeholder {
+    color: #122614;
+    font-weight: bold;
+}
+
+.icon-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#icon-container2 {
+    position: absolute;
+    top: 50%;
+    right: 1px;
+    transform: translateY(-50%);
+}
+
+.icon-container img {
+    background-color: white;
+    width: 35px; 
+    height: 35px; 
+    border-radius: 50%;
+    padding: 5px; 
+    box-sizing: content-box;
+}
+
+.login-button {
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #526657;
+    width: 150px;
+}
